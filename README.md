@@ -1,4 +1,4 @@
-Install Guide für die Lokale Entwicklung
+Install
 ===
 1.  Diese Repo clonen
 2.  wp-config-sample.php anpassen und in wp-config.php umbenennen
