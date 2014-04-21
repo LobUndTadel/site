@@ -22,3 +22,5 @@ readme.html
 license.txt
 .log
 .DS_Store
+
+/wp-config.php
