@@ -3,7 +3,7 @@ Install
 1.  Diese Repo clonen
 2.  wp-config-sample.php anpassen und in wp-config.php umbenennen
 3.  Lokale Wp Installation im Browser aufrufen und fertig installieren
-4.  Aktiviere das Budy Press Plugin
+4.  Aktiviere das Budy Press, BuddyPress Activity Plus, BuddyPress Wall Plugin
 
 Konvention
 ===
