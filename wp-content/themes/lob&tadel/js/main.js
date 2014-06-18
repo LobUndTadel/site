@@ -14,6 +14,7 @@ window.requestAnimFrame = (function () {
 		init : function(){
 			this.$el = $('.site-wrapper');
 			this.$modal = $('.overlay');
+      this.$mail = $('#input-mail');
 			this.modalShown = false;
 			this.bind();
 		},
@@ -21,7 +22,28 @@ window.requestAnimFrame = (function () {
 		bind : function(){
 			this.$el.find('video-placeholder').maximage('maxcover');
 			$('[data-link="about"]').on('click', $.proxy(this.toggleModal, this));
+      $('form').on('submit', $.proxy(this.formSubmit, this));
 		},
+
+    formSubmit : function( event ){
+      var val = this.$mail.val();
+
+      event.preventDefault();
+
+      //strip @hs-furtwangen.de if #userBlicktsNicht
+      val = val.replace(/\@hs\-furtwangen\.de/, '');
+
+      if( /\@(.+)\.(.+)/.test(val)  ){
+        // show error: only hochschul email allowd
+        this.$mail.addClass('error');
+        return;
+      }
+
+      /* $.post({
+        
+      })
+      */
+    },
 
 		toggleModal : function(){
 			if( this.modalShown ){
