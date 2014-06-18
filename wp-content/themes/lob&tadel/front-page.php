@@ -32,12 +32,12 @@
 
       <div class="site-wrapper-inner">
           <div class="intro">
-           <canvas id="particle" width="1280" height="720" ></canvas>
+           <!--<canvas id="particle" width="1280" height="720" ></canvas>
            <!--<div class="video-placeholder"></div>-->
-           <video preload="auto" loop autoplay>
+           <!--<video preload="auto" loop autoplay>
               <source src="http://brtstor01.brut-magazin.de/video///intro_2014_starthuhn.mp4" type="video/mp4">
               <source src="http://brtstor01.brut-magazin.de/video///intro_2014_starthuhn.ogv" type="video/ogg">
-          </video>
+          </video>-->
           </div>
         <div class="cover-vertical">
         <div class="cover-container">
@@ -81,17 +81,20 @@
                 </svg>
             <h1 class="cover-heading">Zeig uns deine Arbeiten!</h1>
             <p class="lead">Wir sind Gestalter, Texter, Programmierer, Fotografen und Filmemacher. Wir wollen zeigen, dass wir Scheitern, Verbessern, Inspirieren und Lernen. Wir studieren an der Hochschule Furtwangen. <a href="#mehr" data-link="about">Mehr</a></p>
-
-            <div class="lead row">
-             <form class="form-inline col-md-8 col-md-offset-2" role="form">
+      <?php $plugins_url = plugins_url(); ?>
+            <div class="lead row newsletter newsletter-subscription">
+             <form class="form-inline col-md-8 col-md-offset-2" role="form" method="post" action="<?php echo $plugins_url;?>/newsletter/do/subscribe.php">
               <div class="form-group">
                 <div class="input-group">
                 <label class="sr-only" for="input-mail">deine Hochschule Adresse</label>
-                <input type="text" class="form-control" id="input-mail" placeholder="deine Email">
+                <input type="text" class="form-control newsletter-email" id="input-mail" placeholder="Deine Email" name="ne">
                 <span class="input-group-addon">@hs-furtwangen.de</span>
-
               </div>
-              <button type="submit" value="Subscribe" class="btn btn-lg btn-default">Ich will dabei sein</button>
+              <!--<div class="input-group">
+                <label class="sr-only" for="input-mail">deine Hochschule Adresse</label>
+                <input type="email" class="form-control newsletter-email" id="input-mail" placeholder="Deine Email" name="ne">
+              </div>-->
+              <button type="submit" value="Subscribe" class="btn btn-lg btn-default newsletter-submit">Ich will dabei sein</button>
               </div>
           </form>
             </div>
