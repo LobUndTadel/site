@@ -9,6 +9,13 @@
         <title>Lob &amp; Tadel</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="Lob&Tadel">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="http://lobundtadel.es">
+        <meta property="og:image" content="http://lobundtadel.es/fb.jpg">
+        <meta property="og:site_name" content="lobundtadel.es">
+        <meta property="og:description" content="Wir sind Gestalter, Texter, Programmierer, Fotografen und Filmemacher. Wir wollen zeigen, dass wir Scheitern, Verbessern, Inspirieren und Lernen.">
+
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css">
         <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
