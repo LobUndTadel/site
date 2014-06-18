@@ -15,12 +15,10 @@ sitemap.xml
 sitemap.xml.gz
 
 # exclude config
-wpconfig.php
+wp-config.php
 
 # no need for these #
 readme.html
 license.txt
 .log
 .DS_Store
-
-/wp-config.php
