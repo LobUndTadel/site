@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css">
         <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" type="image/x-icon" />
+
         <script type="text/javascript" src="//use.typekit.net/ixx0wia.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     </head>
