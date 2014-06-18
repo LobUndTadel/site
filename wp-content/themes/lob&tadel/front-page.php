@@ -14,6 +14,8 @@
         <meta property="og:url" content="http://lobundtadel.es">
         <meta property="og:image" content="http://lobundtadel.es/fb.jpg">
         <meta property="og:site_name" content="lobundtadel.es">
+        <meta property="fb:app_id" content="609003865836229">
+        <meta property="fb:admins" content="100000211543747" />
         <meta property="og:description" content="Wir sind Gestalter, Texter, Programmierer, Fotografen und Filmemacher. Wir wollen zeigen, dass wir Scheitern, Verbessern, Inspirieren und Lernen.">
 
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
