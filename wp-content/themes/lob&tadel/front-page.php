@@ -33,12 +33,12 @@
 
       <div class="site-wrapper-inner">
           <div class="intro">
-           <!--<canvas id="particle" width="1280" height="720" ></canvas>
+           <canvas id="particle" width="1280" height="720" ></canvas>
            <!--<div class="video-placeholder"></div>-->
-           <!--<video preload="auto" loop autoplay>
+           <video preload="auto" loop autoplay>
               <source src="http://brtstor01.brut-magazin.de/video///intro_2014_starthuhn.mp4" type="video/mp4">
               <source src="http://brtstor01.brut-magazin.de/video///intro_2014_starthuhn.ogv" type="video/ogg">
-          </video>-->
+          </video>
           </div>
         <div class="cover-vertical">
         <div class="cover-container">
