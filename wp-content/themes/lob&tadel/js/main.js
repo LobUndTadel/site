@@ -50,7 +50,7 @@ window.requestAnimFrame = (function () {
 
 			$.ajax({
 				data : { ne : val, subscribe : true },
-				url : 'http://lobundtadel.localhost:8080/wp-content/plugins/newsletter/do/subscribe.php',
+				url : '/wp-content/plugins/newsletter/do/subscribe.php',
 				method: 'POST',
 				success : $.proxy(function( respText ){
 					if( respText == 'Wrong email'){
