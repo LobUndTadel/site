@@ -83,6 +83,9 @@
             <h1 class="cover-heading">Zeig uns deine Arbeiten!</h1>
             <p class="lead">Wir sind Gestalter, Texter, Programmierer, Fotografen und Filmemacher. Wir wollen zeigen, dass wir Scheitern, Verbessern, Inspirieren und Lernen. Wir studieren an der Hochschule Furtwangen. <a href="#mehr" data-link="about">Mehr</a></p>
       <?php $plugins_url = plugins_url(); ?>
+            <div class="newsletter-success hidden">
+              Danke! Wir sagen dir bescheid wenn es soweit ist. 
+            </div>
             <div class="lead row newsletter newsletter-subscription">
              <form class="form-inline col-md-8 col-md-offset-2" role="form" method="post" action="<?php echo $plugins_url;?>/newsletter/do/subscribe.php">
               <div class="form-group">
@@ -91,10 +94,6 @@
                 <input type="text" class="form-control newsletter-email" id="input-mail" placeholder="Deine Email" name="ne">
                 <span class="input-group-addon">@hs-furtwangen.de</span>
               </div>
-              <!--<div class="input-group">
-                <label class="sr-only" for="input-mail">deine Hochschule Adresse</label>
-                <input type="email" class="form-control newsletter-email" id="input-mail" placeholder="Deine Email" name="ne">
-              </div>-->
               <button type="submit" value="Subscribe" class="btn btn-lg btn-default newsletter-submit">Ich will dabei sein</button>
               </div>
           </form>
