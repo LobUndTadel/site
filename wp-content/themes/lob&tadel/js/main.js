@@ -285,6 +285,6 @@ window.requestAnimFrame = (function () {
 		}) );
 	}
 
-	FX.loop();
+	//FX.loop();
 	}, 100);
 }();

@@ -36,8 +36,8 @@
            <canvas id="particle" width="1280" height="720" ></canvas>
            <!--<div class="video-placeholder"></div>-->
            <video preload="auto" loop autoplay>
-              <source src="http://brtstor01.brut-magazin.de/video///intro_2014_starthuhn.mp4" type="video/mp4">
-              <source src="http://brtstor01.brut-magazin.de/video///intro_2014_starthuhn.ogv" type="video/ogg">
+              <source src="<?php echo get_template_directory_uri(); ?>/videos/l&t_ballons.mp4" type="video/mp4">
+              <!--<source src="http://brtstor01.brut-magazin.de/video///intro_2014_starthuhn.ogv" type="video/ogg">-->
           </video>
           </div>
         <div class="cover-vertical">
