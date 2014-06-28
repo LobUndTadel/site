@@ -37,7 +37,7 @@
            <!--<div class="video-placeholder"></div>-->
            <video preload="auto" loop autoplay>
               <?php 
-                $vids = array('l&t_melone', 'l&t_ballons');
+                $vids = array('l&t_ballons', 'l&t_melone');
                 $vid = $vids[array_rand($vids)];
               ?>
               <source src="<?php echo get_template_directory_uri(); ?>/videos/<?php echo $vid; ?>.mp4" type="video/mp4">
