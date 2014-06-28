@@ -134,8 +134,7 @@
 
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
       <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-      <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/bootstrap.min.js"></script>
-      <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/maximage-2.0.8.js"></script>
+      <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/jquery.cover.js"></script>
       <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
       <div id="fb-root"></div>
       <script>(function(d, s, id) {

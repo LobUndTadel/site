@@ -21,14 +21,22 @@ window.requestAnimFrame = (function () {
 			this.$mail = $('#input-mail');
 			this.$mailHolder = $('.input-group');
 			this.$success = $('.newsletter-success');
+			this.$video = $('video');
+
 			this.modalShown = false;
 			this.bind();
 		},
 
 		bind : function(){
-			this.$el.find('video-placeholder').maximage('maxcover');
+			this.$video.cover();
+
 			$('[data-link="about"]').on('click', $.proxy(this.toggleModal, this));
 			$('form').on('submit', $.proxy(this.formSubmit, this));
+
+			// Update on resize
+			$(window).resize($.proxy(function() {
+			  this.$video.cover('set');
+			}, this));
 		},
 
 		formSubmit : function( event ){
