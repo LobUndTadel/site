@@ -83,7 +83,7 @@
                 <rect id="border" x="28" y="21" style="fill:none;stroke:#FFFFFF;stroke-width:12;stroke-miterlimit:10;" width="218" height="250"/>
                 </svg>
             <h1 class="cover-heading">Zeig uns deine Arbeiten!</h1>
-            <p class="lead">Wir sind Gestalter, Texter, Programmierer, Fotografen und Filmemacher. Wir wollen zeigen, dass wir Scheitern, Verbessern, Inspirieren und Lernen. Wir studieren an der Hochschule Furtwangen. <a href="#mehr" data-link="about">WTF?</a></p>
+            <p class="lead">Wir sind Gestalter, Texter, Programmierer, Fotografen und Filmemacher. Wir wollen zeigen, dass wir scheitern, verbessern, inspirieren und lernen. Wir studieren an der Hochschule Furtwangen. <a href="#mehr" data-link="about">WTF?</a></p>
       <?php $plugins_url = plugins_url(); ?>
             <div class="newsletter-success hidden">
               Danke! Wir sagen dir bescheid wenn es soweit ist. 
