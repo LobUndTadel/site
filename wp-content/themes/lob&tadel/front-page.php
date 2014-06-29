@@ -23,7 +23,6 @@
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css">
         <script src="<?php echo get_template_directory_uri(); ?>/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" type="image/x-icon" />
-
         <script type="text/javascript" src="//use.typekit.net/ixx0wia.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     </head>
@@ -40,7 +39,7 @@
                 $vids = array('l&t_ballons', 'l&t_melone');
                 $vid = $vids[array_rand($vids)];
               ?>
-              <source src="<?php echo get_template_directory_uri(); ?>/videos/<?php echo $vid; ?>.mp4" type="video/mp4">
+              <source src="<?php echo get_template_directory_uri(); ?>/videos/l&t_melone.mp4" type="video/mp4">
               <!--<source src="http://brtstor01.brut-magazin.de/video///intro_2014_starthuhn.ogv" type="video/ogg">-->
           </video>
           </div>
@@ -85,7 +84,7 @@
                 <rect id="border" x="28" y="21" style="fill:none;stroke:#FFFFFF;stroke-width:12;stroke-miterlimit:10;" width="218" height="250"/>
                 </svg>
             <h1 class="cover-heading">Zeig uns deine Arbeiten!</h1>
-            <p class="lead">Wir sind Gestalter, Texter, Programmierer, Fotografen und Filmemacher. Wir wollen zeigen, dass wir Scheitern, Verbessern, Inspirieren und Lernen. Wir studieren an der Hochschule Furtwangen. <a href="#mehr" data-link="about">Mehr</a></p>
+            <p class="lead">Wir sind Gestalter, Texter, Programmierer, Fotografen und Filmemacher. Wir wollen zeigen, dass wir Scheitern, Verbessern, Inspirieren und Lernen. Wir studieren an der Hochschule Furtwangen. <a href="#mehr" data-link="about">WTF?</a></p>
       <?php $plugins_url = plugins_url(); ?>
             <div class="newsletter-success hidden">
               Danke! Wir sagen dir bescheid wenn es soweit ist. 
