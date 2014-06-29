@@ -35,8 +35,8 @@ if (is_file(WP_CONTENT_DIR . '/extensions/newsletter/subscription/email.php')) {
         <table align="center">
             <tr>
                 <td style="font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; color: #666;">
-                    <div style="text-align: left; max-width: 500px; border-top: 10px solid #43A4D0; border-bottom: 3px solid #43A4D0;">
-                       <img src="http://lobundtadel.es/wp-content/themes/lob%26tadel/image/lt-email-header.png">
+                    <div style="text-align: left; max-width: 500px;">
+                       <img src="http://lobundtadel.es/wp-content/themes/lob%26tadel/images/lt-email-header.png">
                         <div style="padding: 20px; background-color: #fff; line-height: 18px">
 
                             <?php echo $message; ?>
