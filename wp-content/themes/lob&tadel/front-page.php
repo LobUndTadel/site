@@ -13,7 +13,7 @@
         <meta property="og:title" content="Lob&Tadel">
         <meta property="og:type" content="website">
         <meta property="og:url" content="http://lobundtadel.es">
-        <meta property="og:image" content="http://lobundtadel.es/fb.jpg">
+        <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/L&T_social.jpg">
         <meta property="og:site_name" content="lobundtadel.es">
         <meta property="fb:app_id" content="609003865836229">
         <meta property="fb:admins" content="100000211543747" />
