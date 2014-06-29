@@ -33,14 +33,13 @@
       <div class="site-wrapper-inner">
           <div class="intro">
            <canvas id="particle" width="1280" height="720" ></canvas>
-           <!--<div class="video-placeholder"></div>-->
-           <video preload="auto" loop autoplay>
+           <video preload="auto" loop autoplay muted>
               <?php 
                 $vids = array('l&t_ballons', 'l&t_melone');
                 $vid = $vids[array_rand($vids)];
               ?>
-              <source src="<?php echo get_template_directory_uri(); ?>/videos/l&t_melone.mp4" type="video/mp4">
-              <!--<source src="http://brtstor01.brut-magazin.de/video///intro_2014_starthuhn.ogv" type="video/ogg">-->
+              <source src="<?php echo get_template_directory_uri(); ?>/videos/<?php echo $vid; ?>.mp4" type="video/mp4">
+              <source src="<?php echo get_template_directory_uri(); ?>/videos/<?php echo $vid; ?>.ogv" type="video/mp4">
           </video>
           </div>
         <div class="cover-vertical">
