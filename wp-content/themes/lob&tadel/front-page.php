@@ -25,6 +25,15 @@
         <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" type="image/x-icon" />
         <script type="text/javascript" src="//use.typekit.net/ixx0wia.js"></script>
         <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-52376465-1', 'auto');
+        ga('send', 'pageview');
+      </script>
     </head>
     <body>
 
@@ -142,15 +151,6 @@
         js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&appId=609003865836229&version=v2.0";
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
-      </script>
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-52376465-1', 'auto');
-        ga('send', 'pageview');
       </script>
     </body>
 </html>
