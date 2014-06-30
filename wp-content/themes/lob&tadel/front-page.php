@@ -13,7 +13,7 @@
         <meta property="og:title" content="Lob&Tadel">
         <meta property="og:type" content="website">
         <meta property="og:url" content="http://lobundtadel.es">
-        <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/L&T_social.jpg">
+        <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/images/social.jpg">
         <meta property="og:site_name" content="lobundtadel.es">
         <meta property="fb:app_id" content="609003865836229">
         <meta property="fb:admins" content="100000211543747" />
@@ -104,7 +104,7 @@
 
           <div class="mastfoot">
             <div class="inner">
-              <p>&copy; 2014 Lob&amp;Tadel. <a href="#impressum">Impressum</a>
+              <p>&copy; 2014 Lob&amp;Tadel. <!--<a href="#impressum">Impressum</a>-->
               <div class="fb-like" data-href="https://www.facebook.com/lobundtadel.es" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div></p>
             </div>
           </div>
